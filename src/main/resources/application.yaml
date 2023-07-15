@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      database: messages
+      port: 27017
+      host: mongodb
+      username: user
+      password: password
+      authentication-database: admin
+
+security:
+  jwt:
+    secret: G+KbPeShVmYq3t6w9z$C&F)J@McQfTjW
+    duration: 12h
+
+typing:
+  timeout: 60
